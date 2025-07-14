@@ -6,12 +6,13 @@ import { connection } from "./config/db.config.js";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
 import userRouter from "./routes/user.route.js";
 import { removeUnverifiedAccounts } from "./automation/removeUnverifiedAccounts.js";
+import dotenv from 'dotenv';
 
 // Initialize Express app
 export const app = express();
 
 // Load environment variables from config.env file
-config({ path: "./config.env" });
+dotenv.config();
 
 // Configure CORS to allow requests only from frontend URL with credentials
 app.use(
