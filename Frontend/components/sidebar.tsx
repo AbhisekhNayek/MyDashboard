@@ -27,7 +27,7 @@ export function Sidebar() {
           <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-400 rounded-lg flex items-center justify-center">
             <BarChart3 className="h-5 w-5 text-black" />
           </div>
-          <h1 className="text-xl font-bold text-white">Dashboard</h1>
+          <h1 className="text-xl font-bold text-white">My Jobb</h1>
         </div>
 
         <nav className="flex flex-1 flex-col">
