@@ -67,6 +67,14 @@ pnpm dev
 - `Frontend/` — Next.js app (UI, pages, components)
 - `Backend/` — Express server (API, models, controllers)
 
+## 🧪 Sample User Credentials
+
+Use the following credentials to log in during development or testing:
+
+📧 Email: user@gmail.com
+<br>
+🔑 Password: Somu@1234
+
 ## 📝 License
 
 This project is licensed under the MIT License.
